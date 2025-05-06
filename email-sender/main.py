@@ -11,8 +11,8 @@ load_dotenv(find_dotenv())
 PASS = os.getenv("EMAIL_PASS")
 
 # emial contents
-email_sender = "tadanotensai05@gmail.com"
-email_reciever ="geniusjoel2005@gmail.com" 
+email_sender = os.getenv("email_sender")
+email_reciever = os.getenv("email_reciever") 
 email_password = PASS or ""
 subject = input("Subject: ")
 print("Body: (ctrl-d)")

@@ -10,9 +10,9 @@ load_dotenv(find_dotenv())
 PASS = os.getenv("EMAIL_PASS")
 
 # emial contents
-email_sender = "tensaicoder@gmail.com"
+email_sender = "tadanotensai05@gmail.com"
 email_reciever ="tadanotensai05@gmail.com" 
-email_password = PASS
+email_password = PASS or ""
 subject = "testing email automation"
 body="""
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque lectus eget elit ultricies gravida.
